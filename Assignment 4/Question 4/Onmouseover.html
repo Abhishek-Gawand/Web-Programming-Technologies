@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paragraph</title>
+        
+    </head>
+    <body>
+        <a href="" onmouseover="highlightword()"><span style="color: blue; font-weight: bold; font-size: x-large;" id="bluelink">
+    [On mouse over here bold words of the following paragraph will be highlighted]</span></a>
+        <p style="font-size: x-large;" id="par" >
+            <b>We</b> have just started <b>this</b> section for the users (<b>beginner</b> to intermediate) who <b>want</b> to work with <b>various</b> JavaScript <b>problems</b> and write scripts online to <b>test</b> their JavaScript <b>skill</b>.
+        </p>
+<script>
+function highlightword(){
+    var para=document.getElementById("par");
+    var boldwords=para.getElementsByTagName("b");
+    for(var i=0; i< boldwords.length; i++)
+    {
+        boldwords[i].style.backgroundColor="orange"
+    }
+}
+
+</script>
+</body>
+</html>
