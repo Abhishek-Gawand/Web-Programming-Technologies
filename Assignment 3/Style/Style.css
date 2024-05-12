@@ -1,0 +1,50 @@
+e::after{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif';
+}
+    
+    #navbar-container{
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+    background-color: #85929E;
+    
+}
+
+
+#nav-links{
+    float:right;
+    position: relative;
+    top: 20px;
+    right: 60px; 
+
+}
+
+#nav-links a{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color:lightslategrey;
+    padding: 10px 10px 10px;
+    border-radius: 20px;
+    color:black;
+    
+}
+
+#brand-name{
+font-size: 30px;
+letter-spacing: 2px;
+float: center;
+margin-left: -12%;
+margin-bottom: 20%;
+padding-top: 10%;
+
+}
+
+#discription-container
+{
+    margin-top: 100px;
+}
+
